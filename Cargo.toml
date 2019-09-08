@@ -1,0 +1,9 @@
+[package]
+name = "explode_test"
+version = "0.1.0"
+authors = ["Doom <clement.doumergue@epitech.eu>"]
+edition = "2018"
+
+[dependencies]
+explode = { path = "./explode" }
+explode_derive = { path = "./explode_derive" }

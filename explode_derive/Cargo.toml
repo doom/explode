@@ -1,0 +1,13 @@
+[package]
+name = "explode_derive"
+version = "0.1.0"
+authors = ["Doom <clement.doumergue@epitech.eu>"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = "1.0.5"
+quote = "1.0.2"
+explode = { path = "../explode" }
